@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Esmerelda",
+  "display": "standalone",
+  "name": "Esmerelda",
+  "short_name": "Esmerelda",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

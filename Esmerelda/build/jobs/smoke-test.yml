@@ -1,0 +1,17 @@
+jobs:
+- job: smoke_test
+  displayName: Smoke Test (Debug Build of Esmerelda)
+  pool:
+    vmImage: $(windowsAgent)
+  steps:
+    - checkout: self
+      fetchDepth: 0
+
+    - template: ../steps/install-dependencies.yml
+      parameters:
+        targetPlatform: 'wasm'
+
+    - task: MSBuild@1
+      inputs:
+        solution: ./Esmerelda/Esmerelda.csproj
+        msbuildArguments: '/r'

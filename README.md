@@ -7,7 +7,7 @@
     <img align="left" src="https://img.shields.io/github/v/release/RiversideValley/Esmerelda" alt="Release" />
   </a>
   <a title="Platform" target="_blank">
-    <img align="left" src="https://img.shields.io/badge/Platform-web-red" alt="Platform" />
+    <img align="left" src="https://img.shields.io/badge/platform-uno-teal" alt="Platform" />
   </a>
 </p>
 

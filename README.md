@@ -42,15 +42,21 @@ There are multiple ways to participate in the community:
 - [Submit bugs and feature requests](https://github.com/RiversideValley/Esmerelda/issues/new/choose).
 - Review source [code changes](https://github.com/RiversideValley/Esmerelda/commits)
 
-<!--### 🏗️ Codebase Structure
+### 🏗️ Codebase Structure
 
 ```
 .
-└──src                               // The source code.
-   ├──Esme.Services                  // Simple computer functions that Esme can complete
-   └──Esme.Intelligence              // Intelligence repository
+├──App                            // Esmerelda, mESME and Esmerelda Online unified codebase
+├──Core                           // Core computational functions
+├──Enigma                         // Runtime libary for encryption and decryption of files and data using conventional and traditional methods
+├──Hypervisor                     // Simulation software
+├──Intelligence                   // Intelligence repository
+└──Services                       // Simple computer functions that Esme can complete
 ```
-   └──Esme.Hypervisor                // Simulation software-->
+<!-- 
+└──
+├──
+-->
 
 ### 🗃️ Contributors
 
